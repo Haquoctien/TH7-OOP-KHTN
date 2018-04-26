@@ -23,6 +23,7 @@
     <ProjectGuid>{6C0032E9-CDA6-4272-B4C2-513353336F6C}</ProjectGuid>
     <RootNamespace>TH7OOPKHTN</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>bai1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,6 +116,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="NhanVien.h" />
+    <ClInclude Include="NhanVienSanXuat.h" />
+    <ClInclude Include="NhanVienVP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="NhanVien.cpp" />
+    <ClCompile Include="NhanVienSanXuat.cpp" />
+    <ClCompile Include="NhanVienVP.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
